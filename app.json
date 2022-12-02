@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "AppViajeMais",
+    "slug": "AppViajeMais",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-app-original.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo-viajemais-empty.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo-app-original.png",
+        "backgroundColor": "#000"
+      },
+      "package": "com.le0piovesan.AppViajeMais",
+      "config": {
+        "googleMaps": {
+          "apiKey": "process.env.MAPS_API_KEY"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "914b1169-76e0-4314-835d-4cea85a8d878"
+      }
+    }
+  }
+}
