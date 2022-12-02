@@ -1,4 +1,4 @@
-# AppViajeMais
+# Trabalho final para disciplina de Programação para Dispositivos Móveis - AppViajeMais
 
 Aluno: Leonardo Piovesan
 RA: 146685
